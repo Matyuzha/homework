@@ -1,4 +1,6 @@
 import math
+import numpy as np
+import matplotlib.pyplot as plt
 
 print("ПРАКТИЧЕСКАЯ РАБОТА №3")
 print("Метод простой итерации")
@@ -31,9 +33,6 @@ for i in range(max_iter):
         break
 else:
     print(f"\nДостигнуто максимальное число итераций ({max_iter})")
-
-import numpy as np
-import matplotlib.pyplot as plt
 
 # 1. Подготовка данных для графика основной функции
 x_vals = np.linspace(0, 2, 400)
